@@ -9,8 +9,8 @@ body {
   width: 100vw;
   background: linear-gradient(
     90deg,
-    rgb(227, 17, 199) 0%,
-    rgb(30, 32, 182) 100%
+    rgb(179, 5, 170) 0%,
+    rgb(53, 10, 206) 100%
   );
 }
 
@@ -95,7 +95,7 @@ body {
   transform: rotate(-45deg);
 }
 
-/* Circulo */
+/* Circle */
 .cell.circle::before,
 .cell.circle::after,
 .board.circle .cell:not(.x):not(.circle):hover::after,
@@ -107,7 +107,8 @@ body {
   position: absolute;
   border-radius: 50%;
 }
-/* mensagem de vitoria*/
+
+/* Mensagem de Vitória */
 .winning-message {
   display: none;
   position: fixed;
